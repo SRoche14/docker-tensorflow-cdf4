@@ -7,4 +7,4 @@ WORKDIR /usr/src/app
 COPY . .
 
 # install the package
-RUN pip install numpy pandas netcdf4 matplotlib
+RUN pip install numpy pandas netcdf4 matplotlib ast torch sckit-learn
